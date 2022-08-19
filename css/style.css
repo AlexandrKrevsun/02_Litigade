@@ -118,18 +118,23 @@ html {
   }
 
 .wrapper {   /*обёртка страницы, блок контентента, ограничитель ширины*/
-    max-width: 1044px;
+    max-width: 1060px;
     margin: 0 auto;  /*отступ для центрирования. 0 сверху, авто слева/справа*/
 }
 
 /*------------------------header styles START--------------*/
 .header {
-    background-color: chartreuse;
+    background-color: rgba(66, 240, 13, 0.1);
+    
     position: fixed;  /*фиксируем header*/
     top: 0;
     left: 0;
     width: 100%;
 
+}
+
+.header__logo-img {
+    padding-left: 7px;
 }
 
 .header__wrapper {
@@ -147,7 +152,7 @@ html {
 }
 
 .header__item {
-    margin-right: 26px; /*набивка между пунктами меню*/
+    margin-right: 27px; /*набивка между пунктами меню*/
 }
 
 .header__item:last-child {
@@ -174,11 +179,195 @@ html {
 }
 .header__search {
     
-    margin: auto 22px auto 0;
+    margin: auto 23px auto 0;
 }
 
 .header__basket {
-    margin: auto 22px auto 0;
+    margin: auto 33px auto 0;
 }
 
 /*------------------------header styles END--------------*/
+
+/*------------------------intro styles START--------------*/
+.intro {
+    height: 100vh;
+    background: url(../img/intro.jpg) no-repeat center;
+    /*transform: translateY(-53px);*/
+    background-size: cover; 
+}
+
+.intro__tabl{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+}
+
+.section1 {
+    width: 693px;
+    height: auto;
+}
+
+
+
+.intro__title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 65px;
+    color: #252B42;
+    margin-bottom: 35px;
+    margin-top: 311px;
+    margin-left: 6px;
+    letter-spacing: 0.2px;
+}
+
+.intro__sub-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+    margin-bottom: 35px;
+    margin-left: 4px;
+    letter-spacing: 0.2px;
+    width: 539px;
+    height: 60px;
+}
+
+
+.button__intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:left;
+}
+
+.button__intro-left {
+    width: 182px;
+    height: 48px;
+    margin-left: 5px;
+    background: #784F33;
+    position: relative;
+    border-radius: 50px;
+}
+
+.button__intro-right{
+    width: 157px;
+    height: 48px; 
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #784F33;
+    position: relative;
+    border-radius: 50px;
+    
+}
+
+
+.button__intro-text {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    
+}  
+
+.color784F33 {
+    color: #784F33;
+}
+
+.wrapper__registration {
+    height: 619px;
+    width: 328px;
+    background: white;
+    border-radius: 10px;
+    margin: 155px 31px;
+}
+
+.search-form__info {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+.table {
+    display: grid;
+   /* grid-template-columns: repeat(2,1fr);   */ 
+    padding-left: 42px;
+}
+
+.registr__user-name, .registr__user-email, .registr__time, .registr__dep {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    background: #F9F9F9;
+
+    Width: 245px;
+    Height: 50px;
+    border-radius: 5px;
+    border-color: #BDBDBD;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    
+    padding-left: 22px;
+    
+}
+
+
+
+.registr__title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 40px 0;    
+    
+}
+
+.registr__sub-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    
+}
+
+.registr__submit {
+    font-family: 'Open Sans';
+    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
+    background: #1B7DFF;
+    border: 0;
+
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+    Width: 245px;
+    Height: 50px;
+
+    margin-top: 40px;
+    background: #295C7A;
+    border-radius: 5px;
+}
+
+
+/*------------------------intro styles END--------------*/
