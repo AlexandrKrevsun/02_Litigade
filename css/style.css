@@ -317,8 +317,16 @@ html {
     margin-top: 10px;
     margin-bottom: 12px;
     
+    font-weight: bold; 
+}
+.registr__user-name, .registr__user-email {
     padding-left: 22px;
-    
+}
+.registr__time, .registr__dep {
+    padding-left: 12px;
+    appearance: none;
+    background: url(../img/svg/Vector-arrow-ico.svg) no-repeat right;
+    background-position-x: calc(100% - 17px);
 }
 
 
