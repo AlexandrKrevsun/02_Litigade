@@ -190,20 +190,22 @@ html {
 
 /*------------------------intro styles START--------------*/
 .intro {
-    height: 100vh;
+    min-height: 75vh;
+    /*height: 100vh;*/
     background: url(../img/intro.jpg) no-repeat center;
     /*transform: translateY(-53px);*/
     background-size: cover; 
 }
 
 .intro__tabl{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);  
+    display: flex;
+     
 }
 
 .section1 {
     width: 693px;
     height: auto;
+    flex: 45em;
 }
 
 
@@ -228,7 +230,7 @@ html {
     font-size: 20px;
     line-height: 30px;
     color: #737373;
-    margin-bottom: 35px;
+    margin-bottom: 34px;
     margin-left: 4px;
     letter-spacing: 0.2px;
     width: 539px;
@@ -237,42 +239,47 @@ html {
 
 
 .button__intro {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:left;
+    display: grid;
+    grid-template-columns: 192px 0;
+    padding-left: 5px;
 }
 
 .button__intro-left {
     width: 182px;
     height: 48px;
-    margin-left: 5px;
-    background: #784F33;
-    position: relative;
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: #784F33;;
+    border: 0;
     border-radius: 50px;
 }
 
 .button__intro-right{
     width: 157px;
-    height: 48px; 
-    margin-left: 10px;
-    border-style: solid;
+    height: 48px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: none;
     border-width: 1px;
     border-color: #784F33;
-    position: relative;
     border-radius: 50px;
     
 }
 
 
 .button__intro-text {
-    padding: 15px;
+    padding: 13px;
     text-align: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     color: white;
+    text-decoration: none;
     
 }  
 
@@ -282,21 +289,18 @@ html {
 
 .wrapper__registration {
     height: 619px;
-    width: 328px;
+    width: 330px;
     background: white;
     border-radius: 10px;
-    margin: 155px 31px;
+    margin: 154px 7px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.search-form__info {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-}
 
 .table {
-    display: grid;
-   /* grid-template-columns: repeat(2,1fr);   */ 
-    padding-left: 42px;
+    display: grid;  
+    justify-content: center;
 }
 
 .registr__user-name, .registr__user-email, .registr__time, .registr__dep {
@@ -309,7 +313,7 @@ html {
     color: #737373;
     background: #F9F9F9;
 
-    Width: 245px;
+    Width: 249px;
     Height: 50px;
     border-radius: 5px;
     border-color: #BDBDBD;
@@ -355,27 +359,24 @@ html {
     
 }
 
+
+
 .registr__submit {
     font-family: 'Open Sans';
-    
     font-style: normal;
     font-size: 14px;
     line-height: 28px;
     font-weight: 700;
-    color: white;
-    background: #1B7DFF;
     border: 0;
-
     letter-spacing: 0.2px;
     color: #FFFFFF;
-
-    Width: 245px;
-    Height: 50px;
-
-    margin-top: 40px;
+    Width: 248px;
+    Height: 57px;
+    margin-top: 27px;
     background: #295C7A;
     border-radius: 5px;
 }
+
 
 
 /*------------------------intro styles END--------------*/
