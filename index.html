@@ -548,7 +548,41 @@
         <!--Appointment start 6pg------------------------------->
         <section class="appointment">
             <div class="appointment__wrapper">
-                
+                <div class="wrapper">
+                    <h3 class="appointment__sub-title">
+                        Contact Us
+                    </h3>
+                    <h2 class="appointment__title">
+                        Make an Appointment
+                    </h2>
+
+                    <form action='#!' class="form-appointment">
+                        <fieldset class="form-appointment-block"> 
+                            <div class="appointment__form-tabl">  
+                                <input type="text" name = "user-name" class="appointment__user-name" autocomplete ="off" placeholder="Full Name">                              
+                                <input type="email" name = "user-email" class="appointment__user-email" autocomplete ="off" placeholder="example@gmail.com">
+                        
+                                <select class="appointment__dep" name = "user-Department">
+                                    <option class="appointment__dep-choice" value="" disabled selected style='display:none;'>&nbspPlease Select</option>
+                                    <option  class="appointment__dep-choice">Пункт 1</option>
+                                    <option  class="appointment__dep-choice">Пункт 2</option> 
+                                </select>
+         
+                                <select class="appointment__time" name="user-time">
+                                    <option class="appointment__dep-choice">4:00 Available</option>
+                                    <option class="appointment__dep-choice">5:00 Available</option> 
+                                    <option class="appointment__dep-choice">6:00 Available</option> 
+                                    <option class="appointment__dep-choice">7:00 Available</option> 
+                                </select>
+                                
+                                <!--<input type="text" name = "user-message" class="appointment__user-message" autocomplete ="off" placeholder="Message">-->
+                                <textarea class="appointment__user-message">Message</textarea>
+                            </div>
+                            <button type="submit" class="appointment__submit">Book Appointment</button>
+                        </fieldset>
+                    </form>
+
+                </div>
             </div>
         </section>
 

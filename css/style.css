@@ -701,6 +701,102 @@ color: #252B42;
     min-height: 75vh;
 }
 
+.appointment__sub-title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+    padding-top: 90px;
+
+
+}
+
+.appointment__title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.appointment__form-tabl{
+    display: grid;
+    grid-template-columns: 285px auto;
+    grid-template-rows: repeat(2, 1fr);
+
+    margin: 39px 0 0 4px;
+    grid-gap: 20px;
+}
+
+.appointment__user-name, .appointment__user-email, .appointment__time, .appointment__dep, .appointment__user-message{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    background: #F9F9F9;
+
+    Width: 285px;
+    Height: 50px;
+    border-radius: 5px;
+    border-color: #BDBDBD;
+    border-width: 1px;
+    font-weight: bold; 
+
+    padding-left: 22px;
+}
+
+.appointment__time, .appointment__dep {
+    padding-left: 18px;
+    appearance: none;
+    background: url(../img/svg/Vector-arrow-ico.svg) no-repeat right #F9F9F9;
+    background-position-x: calc(100% - 17px);
+}
+
+.appointment__user-message {
+    Width: 600px;
+    Height: 140px;
+    border-radius: 5px;
+    border-color: #BDBDBD;
+    border-width: 1px;
+
+    grid-row: 3;
+    grid-column: 1 / span 2;
+
+    padding-top: 13px;
+    resize: none;
+
+}
+
+.appointment__submit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    border: 0;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    Width: 220px;
+    Height: 57px;
+    margin-top: 40px;
+    background: #784F33;
+    border-radius: 5px;
+}
+
+.appointment__dep-choice {
+    background: #F9F9F9;
+}
 /*-----------------Appointment 6pg styles  END---------------*/
 
 
