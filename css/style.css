@@ -426,7 +426,7 @@ html {
     
 }
 
-.ttttt {
+.card__top-container {
     width: 328px;
     height: 150px;
     margin: 0 auto;
@@ -460,22 +460,24 @@ html {
 .card__info {
     border-radius: 11px;
     border-style: solid;
-    border-color: #A9D6FF;
+    
     border-width: 1px;
     margin-left: 6px;
-    margin-top: -17px;
+    
     background: white;
     width: 328px;
+}
 
-    
-
+.card__info-overlap {
+    margin-top: -17px;
+    border-color: #A9D6FF;
 }
 
 .card__info-list {
     padding: 28px 50px 0 50px;
 }
 
-.card__items {
+.card__items-text-styles {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -483,14 +485,18 @@ html {
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #737373;
+    
+}
+
+.card__items-features {
     margin-bottom: 4px;
 }
 
-.learn__more {
+.link {
     padding: 0px 50px 30px 50px;
 }
 
-.learn__more-url {
+.link-url {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -501,7 +507,7 @@ html {
     text-decoration: none;
 }
 
-.learn__more-url:hover,.learn__more-url:focus {
+.link-url:hover,.link-url:focus {
     opacity: 0.65; 
   }
 
@@ -517,10 +523,8 @@ html {
     /*margin: 80px auto;*/
     width: auto;
     height: 759px;
-    background: #FAFAFA;
-    
+    background: #FAFAFA;   
     position:relative;
-    padding-bottom:50px
 }
 
 .video__wrap-second {
@@ -538,12 +542,14 @@ html {
 .videos__wrapper {
     max-width: 1440px;
     margin: 0 auto;
- 
-  }
+ }
 
 
-.video__item {
-   /* padding-top: 56.25%;*/
+
+.video {
+   height: 442px;
+   width: 877px;
+   margin: 50px 0;
   }
   
   .video_element { 
@@ -556,10 +562,145 @@ html {
 
   .videos {
     position: absolute;
-    width: 877px;
-    height: 442px;
-    margin: 5% 20%;
-   
     
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
   }
+
+  .wrapper__clients {
+    /*margin: 80px auto;*/
+    width: auto;
+    height: 592px;
+    background: #FAFAFA;   
+    position:relative;
+}
 /*------------------------Video 3pg styles  END--------------*/
+
+/*-----------------Clients Say 4pg styles  START-------------*/
+.card__info-clients {
+    border-color: #DEDEDE;
+}
+
+.card__info-wrapper {
+    height: 244px;
+    width: 324px;
+    padding: 30px 35px;
+}
+
+.clients__stars {
+
+}
+
+.stars__wrapper {
+
+}
+
+.clients__author-work {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+
+.clients__feedback {
+    padding: 21px 1px;
+}
+
+.clients__autor-wrapper {
+    display: grid;
+    grid-template-columns: 66px auto;
+    grid-template-rows: repeat(2, 1fr);
+    
+    
+}
+.clients__author-pic {
+    grid-row: 1 / span 2;
+}
+
+/*-----------------Clients Say 4pg styles  END---------------*/
+
+/*-----------------Attorneys 5pg styles  END---------------*/
+.attorneys__tabl {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 31px;
+    padding: 0 7px;
+    margin-bottom: 99px;
+    
+
+    
+    
+    
+}
+
+
+.attorneys__card-wrapper {
+    height: 373px;
+    width: 328px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEEEEE;
+    
+    
+}
+
+.attorneys__info-tabl {
+    padding: 30px 0px;
+    
+    
+}
+
+    
+.attorneys__pic {
+    width: 100%;
+}
+.attorneys-name {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.attorneys-status {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 5px 0;
+
+}
+
+.soc-network__tabl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+}
+
+/*-----------------Attorneys 5pg styles  END---------------*/
+
+/*-----------------Appointment 6pg styles  START---------------*/
+
+.appointment__wrapper {
+    background: url(../img/background-img2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 75vh;
+}
+
+/*-----------------Appointment 6pg styles  END---------------*/
+
+
