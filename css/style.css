@@ -124,12 +124,12 @@ html {
 
 /*------------------------header styles START--------------*/
 .header {
-    background-color: rgba(66, 240, 13, 0.1);
-    
     position: fixed;  /*фиксируем header*/
     top: 0;
     left: 0;
     width: 100%;
+    transition: 0.3s;
+    z-index: 999;
 
 }
 
@@ -186,6 +186,9 @@ html {
     margin: auto 33px auto 0;
 }
 
+.header_active {
+    background: #cccccc
+  }
 /*------------------------header styles END--------------*/
 
 /*------------------------intro styles START--------------*/
@@ -698,7 +701,7 @@ color: #252B42;
 .appointment__wrapper {
     background: url(../img/background-img2.jpg) no-repeat center;
     background-size: cover;
-    min-height: 75vh;
+    min-height: 73.3vh;
 }
 
 .appointment__sub-title {
@@ -764,7 +767,7 @@ color: #252B42;
 }
 
 .appointment__user-message {
-    Width: 600px;
+    Width: 590px;
     Height: 140px;
     border-radius: 5px;
     border-color: #BDBDBD;
@@ -797,6 +800,199 @@ color: #252B42;
 .appointment__dep-choice {
     background: #F9F9F9;
 }
+
+
+.consultation__title {
+    text-align: left;
+    margin: 40px 0 10px;
+}
+
+.consultation__sub-title {
+    text-align: left;
+}
+
+.cosultation__tabl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.consultation__wrap {
+    padding-left: 7px;
+}
+
+.consultation__submit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    border: 0;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    Width: 158px;
+    Height: 58px;
+    margin: 42px;
+    background: #784F33;
+    border-radius: 5px;
+
+}
+
 /*-----------------Appointment 6pg styles  END---------------*/
+
+/*-----------------Footer 7pg styles  START---------------*/
+
+.footer {
+    background: #0E1D28;
+    padding: 56px 0 0px 10px;
+}
+
+.footer__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__soc-network-tabl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__soc-network-img {
+    padding-right: 19px;
+}
+
+.footer__soc-network-right-img {
+    padding-right: 55px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer__menu-title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.footer__menu-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.bottom__border {
+    margin: 57px 0 71px;
+    border-color: #364067;
+}
+
+.footer_menu-01 {
+    padding-right: 62px;
+}
+
+.footer_menu-02 {
+    padding-right: 89px;;
+}
+
+.footer_menu-03 {
+    padding-right: 43px;
+}
+
+.footer_menu-04 {
+    padding-right: 80px;
+}
+
+.footer__menu-item-title {
+    padding-bottom: 10px;
+}
+
+.footer__menu-item {
+    padding-top: 10px;
+}
+
+.footer__email-field {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    background: #F9F9F9;
+    Width: 205px;
+    Height: 58px;
+    
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    border-color: #ffffff #BDBDBD #BDBDBD;
+    border-width: 1px;
+    margin-top: 19px;
+    font-weight: bold;
+    padding-left: 19px;
+}
+
+.footer__menu-sub-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding-left: 2px;
+}
+
+.text__with__button {
+    position: relative;
+}
+
+.footer__email-button {
+    height: 58px;
+    width: 118px;
+    margin: 19px 0px 0px -1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #D0A144;
+    color: #ffffff;
+    
+    border-color: #BDBDBD;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+.fooder__Right {
+    height: 74px;
+    background: linear-gradient(45deg,#0072B5, #295C7A );
+}
+
+.footer__item {
+    margin-bottom: 70px;
+}
+
+.fooder__Right-text-styles {
+    color: white;
+    padding-top: 25px;
+}
+/*-----------------Footer 7pg styles   END---------------*/
 
 
