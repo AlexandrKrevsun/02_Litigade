@@ -118,8 +118,9 @@ html {
   }
 
 .wrapper {   /*обёртка страницы, блок контентента, ограничитель ширины*/
-    max-width: 1060px;
+    max-width: 1090px;
     margin: 0 auto;  /*отступ для центрирования. 0 сверху, авто слева/справа*/
+    padding: 0 15px
 }
 
 /*------------------------header styles START--------------*/
@@ -189,6 +190,35 @@ html {
 .header_active {
     background: #cccccc
   }
+
+.header__burger {
+    height: 16px;
+    width: 24px;
+    position: relative;
+    display: none;
+    left: 87%;
+}
+.burger__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #737373;
+    position: absolute;
+}
+
+.burger__line_1 {
+top: 0;
+}
+
+.burger__line_2 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger__line_3 {
+ bottom: 0;   
+}
+
 /*------------------------header styles END--------------*/
 
 /*------------------------intro styles START--------------*/
@@ -430,7 +460,7 @@ html {
 }
 
 .card__top-container {
-    width: 328px;
+    /*width: 328px; !!!!!!!!!!!!!!!!!!!!!!!!*/
     height: 150px;
     margin: 0 auto;
     display: flex;
@@ -468,7 +498,7 @@ html {
     margin-left: 6px;
     
     background: white;
-    width: 328px;
+  /*  width: 328px; !!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 
 .card__info-overlap {
@@ -588,8 +618,8 @@ html {
 }
 
 .card__info-wrapper {
-    height: 244px;
-    width: 324px;
+    /*height: 244px;*/
+  /*  width: 324px;*/
     padding: 30px 35px;
 }
 
@@ -645,7 +675,7 @@ color: #252B42;
 
 .attorneys__card-wrapper {
     height: 373px;
-    width: 328px;
+    /*width: 328px;*/
     border-style: solid;
     border-width: 1px;
     border-color: #EEEEEE;
@@ -955,13 +985,13 @@ color: #252B42;
 }
 
 .text__with__button {
-    position: relative;
+   /* position: relative;*/
 }
 
 .footer__email-button {
     height: 58px;
     width: 118px;
-    margin: 19px 0px 0px -1px;
+    margin: 19px 0px 0px -px;
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 14px;
@@ -975,14 +1005,16 @@ color: #252B42;
     border-width: 1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    position: absolute;
+   /* position: absolute;*/
     text-decoration: none;
+    margin-left: -5px;
     
 }
 
 .fooder__Right {
     height: 74px;
     background: linear-gradient(45deg,#0072B5, #295C7A );
+    margin-left: -10px;
 }
 
 .footer__item {
@@ -992,7 +1024,129 @@ color: #252B42;
 .fooder__Right-text-styles {
     color: white;
     padding-top: 25px;
+    padding-left: 5px;
 }
+
+.img-burger {
+    display: none;
+}
+
 /*-----------------Footer 7pg styles   END---------------*/
+
+/*-----------------Media START---------------*/
+@media screen and (max-width: 840px) {
+    .header__burger {
+        display: block;
+    }
+
+    .img-burger {
+        display: block;
+    }
+
+    .header__logo {
+        top: 40px;
+        left: 30px;
+    }
+
+
+    .header__nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #A9D6FF;
+        z-index: 10;
+        padding-top: 135px;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: 0.2s all linear;
+    }
+
+    .header__nav_active {    /*делаем меню запщенным по скрипту*/
+        transform: translate(0);
+       }
+
+    .header__item {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header__item:last-child {
+        margin-right: 0px;
+    }
+
+    .header__list {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header__link {
+        font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    }
+
+    .header__search {
+        margin: 0 0 0 0;
+        position: fixed;
+        top: 40px;
+        right: 139px;
+    }
+
+
+    .header__basket {
+        margin: 0 0 0 0;
+        position: fixed;
+        top: 40px;
+        right: 90px;
+    }
+
+    .header__search-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__basket-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__logo {
+        position: fixed;
+    }
+
+    .header__nav-close {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 36px;
+        right: 30px;
+        z-index: 11;
+       }
+    
+       .header__nav-close-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #737373;
+        position: absolute;
+        top: 50%;
+       }
+      .header__nav-close-line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+       }
+       .header__nav-close-line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+       }
+
+}
+/*-----------------Media END---------------*/
 
 

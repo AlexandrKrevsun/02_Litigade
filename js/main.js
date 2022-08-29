@@ -8,3 +8,27 @@
         }
     }
 }());
+
+// burger handler
+(function(){
+    const burgerItem = document.querySelector('.burger');
+    const menu = document.querySelector('.header__nav')
+    burgerItem.addEventListener('click',()=> {
+        menu.classList.add('header__nav_active');
+    });
+
+    const menuCloseItem = document.querySelector('.header__nav-close');
+    menuCloseItem.addEventListener('click',()=>{
+        menu.classList.remove('header__nav_active');
+    });
+//убираем меню при нажатии на ссылку
+    const menuLinks = document.querySelectorAll('.header__link');
+    if(window.innerWidth <= 767){
+        for (let i = 0; i < menuLinks.length; i+=1){
+
+        menuLinks[i].addEventListener('click',()=>{
+        menu.classList.remove('header__nav_active')
+            });
+        }
+    }
+}());
