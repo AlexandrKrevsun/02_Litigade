@@ -510,7 +510,7 @@ width: 100%;
     margin-left: 6px;
     
     background: white;
-  /*  width: 328px; !!!!!!!!!!!!!!!!!!!!!!!!*/
+    width: 328px;
 }
 
 .card__info-overlap {
@@ -668,6 +668,9 @@ color: #252B42;
     grid-row: 1 / span 2;
 }
 
+.advice__title-mobile {
+    display: none;
+}
 /*-----------------Clients Say 4pg styles  END---------------*/
 
 /*-----------------Attorneys 5pg styles  END---------------*/
@@ -1043,6 +1046,12 @@ color: #252B42;
     display: none;
 }
 
+.title__wrap-clients {
+    width: 800px;
+    margin:0 auto; /*блок по центру*/
+    margin-bottom: 80px;  
+}
+
 /*-----------------Footer 7pg styles   END---------------*/
 
 /*-----------------Media START---------------*/
@@ -1206,6 +1215,8 @@ color: #252B42;
        /*---advice style 2pg-------------media--start--*/
        .title__wrap {
         width: 300px;
+        margin-bottom: 73px;
+        text-align: center;
        }
 
        .advice__title {
@@ -1235,40 +1246,121 @@ color: #252B42;
         }
 
         .card {
-            margin-bottom: 14px;
+        margin-bottom: 14px;
         }
         .card:last-child {
-            margin-bottom: 66px;
+        margin-bottom: 66px;
         }
 
         .wrapper__card-mobile {
-            padding: 0px 37px;
+        padding: 0px 37px;
         }
 
-        .title__wrap {
-            margin-bottom: 73px;
-        }
+     
        /*---advice style 2pg-------------media--end-----*/
 
        /*---video style 3pg-------------media--start-----*/
-       .advice__sub-title-mobile { 
-            display: inline;   
-            font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: #737373;      
+       
+       
+       .video {
+        margin: 58px 53px;
        }
        
-       
-       
-       /*---video style 3pg-------------media--end-----*/
+
+       .video__wrap-first {
+        height: 922px;
+        }
+
+       .video__wrap-second {
+        height: 410px;
+       }
+        /*---video style 3pg-------------media--end-----*/
 
 
+        /*---clients style 4pg-------------media--start-----*/
+    
+        .full-title {
+            display: none;
+        }
 
+        .advice__title-mobile {
+            display: block;
+            font-family: 'Martel';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+            
+        
+
+        .title__wrap-clients {
+            width: auto;           
+            margin: 75px 0 59px 0;
+           
+
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 17px;
+            justify-items: center;
+        }
+        .wrapper__clients {
+            height: 1126px;
+        }
+
+        .card-mobile {
+            margin-bottom: 9px;
+        }
+     /*---clients style 4pg-------------media--end-----*/
+     /*---Attorneys style 5pg-------------media--start----*/
+        .attorneys__tabl {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 31px;
+            padding: 0 28px;
+            margin-bottom: 136px;
+        }
+        
+        
+.ssss {
+    margin-bottom: 44px;
+}
+    /*---Attorneys style 5pg-------------media--end-----*/
+
+    /*---Appointment style 6pg-------------media--start-----*/
+    .appointment__sub-title {    
+        padding: 116px 0px 0 48px;
+    }
+
+    .appointment__title {
+        padding-left: 47px;
+    }
+
+    .appointment__form-tabl {
+        grid-template-columns: 1fr;
+       /* grid-template-rows: repeat(2, 1fr);*/
+
+    }
+
+    .appointment__user-message {
+        grid-column: 1;
+        Width: auto;
+    }
+
+    .appointment__user-name, .appointment__user-email, .appointment__dep, .appointment__time {
+        Width: auto;
+    }
+
+
+    /*---Appointment style 6pg-------------media--end-----*/
 }
 /*-----------------Media END---------------*/
 
