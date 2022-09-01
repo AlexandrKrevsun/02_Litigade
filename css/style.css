@@ -1,114 +1,3 @@
-/* martel-regular - latin */
-@font-face {
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/martel-v10-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/martel-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/martel-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/martel-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/martel-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/martel-v10-latin-regular.svg#Martel') format('svg'); /* Legacy iOS */
-  }
-  
-  /* martel-700 - latin */
-  @font-face {
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/martel-v10-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/martel-v10-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/martel-v10-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/martel-v10-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/martel-v10-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/martel-v10-latin-700.svg#Martel') format('svg'); /* Legacy iOS */
-  }
-  
-  /* martel-900 - latin */
-  @font-face {
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/martel-v10-latin-900.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/martel-v10-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/martel-v10-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/martel-v10-latin-900.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/martel-v10-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/martel-v10-latin-900.svg#Martel') format('svg'); /* Legacy iOS */
-  }
-
-  /* montserrat-regular - latin */
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  
-  /* montserrat-500 - latin */
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/montserrat-v25-latin-500.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/montserrat-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v25-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/montserrat-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/montserrat-v25-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-
-  /* open-sans-regular - latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/open-sans-v34-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/open-sans-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
-  
-  /* open-sans-600 - latin */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/open-sans-v34-latin-600.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/open-sans-v34-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/open-sans-v34-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/open-sans-v34-latin-600.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/open-sans-v34-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/open-sans-v34-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
-  
-  /* open-sans-700 - latin */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/open-sans-v34-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/open-sans-v34-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/open-sans-v34-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/open-sans-v34-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/open-sans-v34-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
 
 html {
     box-sizing: border-box;
@@ -144,7 +33,7 @@ html {
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 40px; /*отступ сверху header*/
+    padding: 44px 0 8px 0;  /*отступ сверху header*/
 }
 
 .header__list {   /*работаем со списком меню*/
@@ -206,8 +95,8 @@ html {
 }
 
 .burger__line_1 {
-top: 0;
-width: 100%;
+    top: 0;
+    width: 100%;
 }
 
 .burger__line_2 {
@@ -226,22 +115,19 @@ width: 100%;
 /*------------------------intro styles START--------------*/
 .intro {
     min-height: 75vh;
-    /*height: 100vh;*/
     background: url(../img/intro.jpg) no-repeat center;
-    /*transform: translateY(-53px);*/
     background-size: cover; 
 }
 
 .intro__tabl{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section1 {
     width: 693px;
     height: auto;
-    /*flex: 40em;*/
     overflow:hidden;
     flex: 60%;
 }
@@ -287,8 +173,7 @@ width: 100%;
 
 .button__intro-left {
     width: 182px;
-    height: 48px;
-    
+    height: 48px;  
     font-size: 18px;
     font-weight: 500;
     color: white;
@@ -307,8 +192,7 @@ width: 100%;
     background: none;
     border-width: 1px;
     border-color: #784F33;
-    border-radius: 50px;
-    
+    border-radius: 50px;  
 }
 
 
@@ -320,8 +204,7 @@ width: 100%;
     font-weight: 700;
     font-size: 14px;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }  
 
 .color784F33 {
@@ -336,7 +219,6 @@ width: 100%;
     margin: 154px 7px 50px 7px;
     padding-left: 10px;
     padding-right: 10px;
-    flex: 23%;
 }
 
 
@@ -361,8 +243,7 @@ width: 100%;
     border-color: #BDBDBD;
     border-width: 1px;
     margin-top: 10px;
-    margin-bottom: 12px;
-    
+    margin-bottom: 12px; 
     font-weight: bold; 
 }
 .registr__user-name, .registr__user-email {
@@ -375,8 +256,6 @@ width: 100%;
     background-position-x: calc(100% - 17px);
 }
 
-
-
 .registr__title {
     font-family: 'Martel';
     font-style: normal;
@@ -386,8 +265,7 @@ width: 100%;
     text-align: center;
     letter-spacing: 0.1px;
     color: #252B42;
-    margin: 40px 0;    
-    
+    margin: 40px 0;       
 }
 
 .registr__sub-title {
@@ -397,14 +275,12 @@ width: 100%;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    color: #252B42;
-    
+    color: #252B42;  
 }
 
 .registr__sub-title:last-child {
     padding-top: 2px;
 }
-
 
 .registr__submit {
     font-family: 'Open Sans';
@@ -422,8 +298,6 @@ width: 100%;
     border-radius: 5px;
 }
 
-
-
 /*------------------------intro styles END--------------*/
 
 /*------------------------Advice 2pg styles  START--------------*/
@@ -431,8 +305,7 @@ width: 100%;
     
     width: 800px;
     margin:0 auto; /*блок по центру*/
-    margin-bottom: 80px;  
-    
+    margin-bottom: 80px;    
 }
 
 .advice__title {
@@ -465,10 +338,7 @@ width: 100%;
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 17px;
-
-    
-    
+    grid-gap: 17px;   
 }
 
 .card__top-container {
@@ -481,10 +351,7 @@ width: 100%;
     background: #F6E4D7;
     justify-content: center;
     margin-left: 6px;
-    border-radius: 10px;
-
-    
-    
+    border-radius: 10px;  
 }
 
 .card__top-pic {
@@ -504,11 +371,9 @@ width: 100%;
 
 .card__info {
     border-radius: 11px;
-    border-style: solid;
-    
+    border-style: solid;   
     border-width: 1px;
-    margin-left: 6px;
-    
+    margin-left: 6px;   
     background: white;
     width: 328px;
 }
@@ -529,8 +394,7 @@ width: 100%;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    color: #737373;
-    
+    color: #737373;    
 }
 
 .card__items-features {
@@ -576,20 +440,15 @@ width: 100%;
     width: 100%;
     height: 350px;
     background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
-    margin: 0 auto;
-    
+    margin: 0 auto;  
     position:absolute;
     bottom:0;
-    
-
 }
 
 .videos__wrapper {
     max-width: 1440px;
     margin: 0 auto;
  }
-
-
 
 .video {
    height: 442px;
@@ -601,14 +460,11 @@ width: 100%;
     top:0;
     left:0;
     width: 100%;
-    height: 100%;
-   
+    height: 100%; 
   }
 
   .videos {
     position: absolute;
-    
-
     display: flex;
     justify-content: center;
     width: 100%;
@@ -630,8 +486,6 @@ width: 100%;
 }
 
 .card__info-wrapper {
-    /*height: 244px;*/
-  /*  width: 324px;*/
     padding: 30px 35px;
 }
 
@@ -679,18 +533,12 @@ color: #252B42;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 31px;
     padding: 0 7px;
-    margin-bottom: 99px;
-    
-
-    
-    
-    
+    margin-bottom: 99px;  
 }
-
 
 .attorneys__card-wrapper {
     height: 373px;
-    /*width: 328px;*/
+    width: 328px;
     border-style: solid;
     border-width: 1px;
     border-color: #EEEEEE;
@@ -699,12 +547,9 @@ color: #252B42;
 }
 
 .attorneys__info-tabl {
-    padding: 30px 0px;
-    
-    
-}
+    padding: 30px 0px; 
+}   
 
-    
 .attorneys__pic {
     width: 100%;
 }
@@ -746,7 +591,7 @@ color: #252B42;
 .appointment__wrapper {
     background: url(../img/background-img2.jpg) no-repeat center;
     background-size: cover;
-    min-height: 73.3vh;
+    min-height: 66vh;
 }
 
 .appointment__sub-title {
@@ -760,8 +605,6 @@ color: #252B42;
     color: #252B42;
 
     padding-top: 90px;
-
-
 }
 
 .appointment__title {
@@ -782,6 +625,8 @@ color: #252B42;
 
     margin: 39px 0 0 4px;
     grid-gap: 20px;
+
+    align-items: center;
 }
 
 .appointment__user-name, .appointment__user-email, .appointment__time, .appointment__dep, .appointment__user-message{
@@ -846,7 +691,6 @@ color: #252B42;
     background: #F9F9F9;
 }
 
-
 .consultation__title {
     text-align: left;
     margin: 40px 0 10px;
@@ -889,7 +733,7 @@ color: #252B42;
 
 .footer {
     background: #0E1D28;
-    padding: 56px 0 0px 10px;
+    
 }
 
 .footer__logo {
@@ -914,8 +758,7 @@ color: #252B42;
 
 .footer__nav {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .footer__menu-title {
@@ -999,10 +842,6 @@ color: #252B42;
     padding-left: 2px;
 }
 
-.text__with__button {
-   /* position: relative;*/
-}
-
 .footer__email-button {
     height: 58px;
     width: 118px;
@@ -1029,7 +868,6 @@ color: #252B42;
 .fooder__Right {
     height: 74px;
     background: linear-gradient(45deg,#0072B5, #295C7A );
-    margin-left: -10px;
 }
 
 .footer__item {
@@ -1051,6 +889,11 @@ color: #252B42;
     margin:0 auto; /*блок по центру*/
     margin-bottom: 80px;  
 }
+
+.wrapper__footer {
+    padding: 56px 0 0px 10px;
+}
+
 
 /*-----------------Footer 7pg styles   END---------------*/
 
@@ -1086,7 +929,7 @@ color: #252B42;
         transition: 0.2s all linear;
     }
 
-    .header__nav_active {    /*делаем меню запщенным по скрипту*/
+    .header__nav_active {    /*делаем меню запущенным по скрипту*/
         transform: translate(0);
        }
 
@@ -1327,40 +1170,103 @@ color: #252B42;
             grid-gap: 31px;
             padding: 0 28px;
             margin-bottom: 136px;
+            justify-items: center;
         }
         
         
-.ssss {
+.attorneys-title {
     margin-bottom: 44px;
 }
     /*---Attorneys style 5pg-------------media--end-----*/
 
     /*---Appointment style 6pg-------------media--start-----*/
     .appointment__sub-title {    
-        padding: 116px 0px 0 48px;
+        padding: 116px 0px 0 2px;
     }
 
     .appointment__title {
-        padding-left: 47px;
+        padding-left: 2px;
     }
 
     .appointment__form-tabl {
-        grid-template-columns: 1fr;
-       /* grid-template-rows: repeat(2, 1fr);*/
+        display: flex;
+        flex-direction: column;
 
     }
 
     .appointment__user-message {
-        grid-column: 1;
-        Width: auto;
+        Width: 286px;
     }
 
-    .appointment__user-name, .appointment__user-email, .appointment__dep, .appointment__time {
-        Width: auto;
+    .wrapper__appointment-mobile {
+        padding: 0px 60px;
     }
 
+    .appointment__submit {
+        margin: 0px auto;
+        display: block;
+        Width: 285px;
+        margin: 39px 0 100px 4px;
+        margin: 40px auto 100px auto;
+
+    }
+
+    .consultation__wrap-mobile {
+        padding: 0 55px;
+    }
+
+
+    .cosultation__tabl {
+        justify-content: space-evenly;
+    }
+
+    .consultation__sub-title {
+    text-align: left;
+
+    }
+
+    .consultation__submit {
+    Width: 286px;
+    margin: 52px 39px 39px 57px;
+    }
 
     /*---Appointment style 6pg-------------media--end-----*/
+
+   /*-----footer style 7pg-------------media--start-----*/
+   .footer {
+    background: #0E1D28;
+    
+    }
+
+    .bottom__border {
+        display: none;
+    }
+
+    .footer__logo {
+        flex-direction: column;
+        gap: 66px;
+        margin-bottom: 110px;
+    }
+
+    .footer__nav {
+        gap: 30px;
+    }
+
+    .card__items-text-styles {
+        text-align: left;
+    }
+    .wrapper__footer {
+        padding: 56px 0 0px 34px;
+    }
+
+    .footer__email {
+        width: 340px;
+    }
+
+    .fooder__Right-text-styles {
+        text-align: center;
+    }
+   /*-----footer style 7pg-------------media--end-----*/
 }
 /*-----------------Media END---------------*/
 

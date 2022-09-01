@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="./css/reset.css">       <!--01_сброс дефолтных браузерных настроек блоков-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-face.css">
+
     <title>Help to reclaim your life and freedom</title>
 </head>
 
@@ -489,7 +491,7 @@
         <!--Attorneys start 5pg----------------------------->
         <section class="attorneys">
             <div class="wrapper">
-                <div class="title__wrap ssss">
+                <div class="title__wrap attorneys-title">
                     <h2 class="advice__title">
                         Meet Our Attorneys
                     </h2>
@@ -603,11 +605,12 @@
                                     <option class="appointment__dep-choice">6:00 Available</option> 
                                     <option class="appointment__dep-choice">7:00 Available</option> 
                                 </select>
-                                
-                                <!--<input type="text" name = "user-message" class="appointment__user-message" autocomplete ="off" placeholder="Message">-->
+                                   
                                 <textarea class="appointment__user-message">Message</textarea>
                             </div>
+                            <div class="rrrr">
                             <button type="submit" class="appointment__submit">Book Appointment</button>
+                            </div>
                         </fieldset>
                     </form>
                 </div>
@@ -618,12 +621,16 @@
             <div class="consultation">
                 <div class="wrapper">
                     <div class="cosultation__tabl">
-                        <div class="consultation__wrap">
+                        <div class="consultation__wrap consultation__wrap-mobile">
                             <h2 class="registr__title consultation__title">
                                 Request A Free Consultation
                             </h2>
                             <h3 class="advice__sub-title consultation__sub-title">
                                 the quick fox jumps over the lazy dog
+                            </h3>
+
+                            <h3 class="advice__sub-title-mobile consultation__sub-title">
+                                the quick fox jumps over <br> the lazy dog
                             </h3>
                         </div>
                         <button type="submit" class="consultation__submit">Contact Us</button>
@@ -637,134 +644,136 @@
 
     <!--footer start 7pg---------------------------------->
     <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__logo">
-                <div class="footer__logo-img">
-                    <a href="#!" class="footer__logo-img-link">
-                        <img src="./img/svg/Litigade-Logo-footer.svg" alt="Litigade" class="footer__logo-img-ico">
-                    </a>                       
-                </div>
-
-                <div class="footer__soc-network-tabl">
-                    <a href="#!"><img src="./img/svg/f-facebook.svg" alt="facebook img" class="footer__soc-network-img"></a>
-                    <a href="#!"><img src="./img/svg/f-instogram.svg" alt="instagram img" class="footer__soc-network-img"></a>
-                    <a href="#!"><img src="./img/svg/f-twitter.svg" alt="twitter img" class="footer__soc-network-img"></a>
-                    <a href="#!"><img src="./img/svg/f-youtube.svg" alt="youtube img" class="footer__soc-network-right-img"></a>
-
-                </div>
-            </div>
-
-            <hr class="bottom__border">
-
-            <div class="footer__item">
-                <nav class="footer__nav">
-                    <!--1-->
-                    <ul class="footer_menu-01">
-                        <li class="footer__menu-item-title">
-                            <h3 class="footer__menu-title">Company Info</h3>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">About Us</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Carrier</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">We are hiring</a>
-                        </li>     
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Blog</a>
-                        </li>
-                    </ul>
-
-                    <!--2-->
-                    <ul class="footer_menu-02">
-                        <li class="footer__menu-item-title">
-                            <h3 class="footer__menu-title">Legal</h3>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">About Us</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Carrier</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">We are hiring</a>
-                        </li>     
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Blog</a>
-                        </li>
-                    </ul>
-
-                    <!--3-->
-                    <ul class="footer_menu-03">
-                        <li class="footer__menu-item-title">
-                            <h3 class="footer__menu-title">Features</h3>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Business Marketing</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">User Analytic</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Live Chat</a>
-                        </li>     
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Unlimited Support</a>
-                        </li>
-                    </ul>
-
-                    <!--4-->
-                    <ul class="footer_menu-04">
-                        <li class="footer__menu-item-title">
-                            <h3 class="footer__menu-title">Resources</h3>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">IOS & Android</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Watch a Demo</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">Customers</a>
-                        </li>     
-                        <li class="footer__menu-item">
-                            <a href="#!" class="footer__menu-link">API</a>
-                        </li>
-                    </ul>
-                    
-                    <form action='#!' class="footer__email-block">
-                    
-                        <div class="footer__email">
-                            <h2 class="footer__menu-title">
-                                Get In Touch
-                            </h2> 
-
-                            <div class="text__with__button">
-                                
-                                <input type="email" name="footer__email-field" class="footer__email-field" autocomplete="off" placeholder="Your Email">
-                                <button type="submit" class="footer__email-button">Subscribe</button>
-                                <h3 class="footer__menu-sub-title">
-                                    Lorem impsum dolor amit
-                                </h3>
-                                
-                            </div>
-                        </div>
-                    
-                    </form>
-                
-                </nav>
-
-                
-            </div>
-        </div>
-
-        <div class="fooder__Right">
+        <div class="wrapper__footer">  
             <div class="wrapper">
-                <h3 class="card__items-text-styles fooder__Right-text-styles">Made With Love By Figmaland All Right Reserved </h3>           
-            </div> 
-        </div>
+                <div class="footer__logo">
+                    <div class="footer__logo-img">
+                        <a href="#!" class="footer__logo-img-link">
+                            <img src="./img/svg/Litigade-Logo-footer.svg" alt="Litigade" class="footer__logo-img-ico">
+                        </a>                       
+                    </div>
+
+                    <div class="footer__soc-network-tabl">
+                        <a href="#!"><img src="./img/svg/f-facebook.svg" alt="facebook img" class="footer__soc-network-img"></a>
+                        <a href="#!"><img src="./img/svg/f-instogram.svg" alt="instagram img" class="footer__soc-network-img"></a>
+                        <a href="#!"><img src="./img/svg/f-twitter.svg" alt="twitter img" class="footer__soc-network-img"></a>
+                        <a href="#!"><img src="./img/svg/f-youtube.svg" alt="youtube img" class="footer__soc-network-right-img"></a>
+
+                    </div>
+                </div>
+
+                <hr class="bottom__border">
+
+                <div class="footer__item">
+                    <nav class="footer__nav">
+                        <!--1-->
+                        <ul class="footer_menu-01">
+                            <li class="footer__menu-item-title">
+                                <h3 class="footer__menu-title">Company Info</h3>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">About Us</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Carrier</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">We are hiring</a>
+                            </li>     
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Blog</a>
+                            </li>
+                        </ul>
+
+                        <!--2-->
+                        <ul class="footer_menu-02">
+                            <li class="footer__menu-item-title">
+                                <h3 class="footer__menu-title">Legal</h3>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">About Us</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Carrier</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">We are hiring</a>
+                            </li>     
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Blog</a>
+                            </li>
+                        </ul>
+
+                        <!--3-->
+                        <ul class="footer_menu-03">
+                            <li class="footer__menu-item-title">
+                                <h3 class="footer__menu-title">Features</h3>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Business Marketing</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">User Analytic</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Live Chat</a>
+                            </li>     
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Unlimited Support</a>
+                            </li>
+                        </ul>
+
+                        <!--4-->
+                        <ul class="footer_menu-04">
+                            <li class="footer__menu-item-title">
+                                <h3 class="footer__menu-title">Resources</h3>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">IOS & Android</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Watch a Demo</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">Customers</a>
+                            </li>     
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">API</a>
+                            </li>
+                        </ul>
+                        
+                        <form action='#!' class="footer__email-block">
+                        
+                            <div class="footer__email">
+                                <h2 class="footer__menu-title">
+                                    Get In Touch
+                                </h2> 
+
+                                <div class="text__with__button">
+                                    
+                                    <input type="email" name="footer__email-field" class="footer__email-field" autocomplete="off" placeholder="Your Email">
+                                    <button type="submit" class="footer__email-button">Subscribe</button>
+                                    <h3 class="footer__menu-sub-title">
+                                        Lorem impsum dolor amit
+                                    </h3>
+                                    
+                                </div>
+                            </div>
+                        
+                        </form>
+                    
+                    </nav>
+
+                    
+                </div>
+            </div>
+        </div>  
+            <div class="fooder__Right">
+                <div class="wrapper">
+                    <h3 class="card__items-text-styles fooder__Right-text-styles">Made With Love By <br> Figmaland All Right Reserved </h3>           
+                </div> 
+                
+            </div>
     </footer>
 
     <!--footer end 7pg---------------------------------->
