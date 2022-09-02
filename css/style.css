@@ -142,7 +142,7 @@ html {
     line-height: 65px;
     color: #252B42;
     
-    margin: 311px 0 35px 6px;
+    margin: 314px 0 36px 5px;
     letter-spacing: 0.2px;
 }
 
@@ -216,7 +216,7 @@ html {
     width: 330px;
     background: white;
     border-radius: 10px;
-    margin: 154px 7px 50px 7px;
+    margin: 160px 7px 50px 7px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -265,7 +265,7 @@ html {
     text-align: center;
     letter-spacing: 0.1px;
     color: #252B42;
-    margin: 40px 0;       
+    margin: 40px 16px 40px 20px;
 }
 
 .registr__sub-title {
@@ -291,9 +291,9 @@ html {
     border: 0;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    Width: 248px;
+    Width: 249px;
     Height: 57px;
-    margin-top: 27px;
+    margin-top: 25px;
     background: #295C7A;
     border-radius: 5px;
 }
@@ -897,6 +897,10 @@ color: #252B42;
 .fooder__Right-text-styles-mobile {
     display: none;
     }
+
+.rrrr{
+    margin-bottom: 100px ;
+}
 /*-----------------Footer 7pg styles   END---------------*/
 
 /*-----------------Media START---------------*/
@@ -1053,7 +1057,7 @@ color: #252B42;
        }
 
        .wrapper__registration {
-        margin: 80px 24px 88px 27px;
+        margin: 160px 7px 49px 7px;
        }
 
        /*---main style 1pg---------------media--end--*/
