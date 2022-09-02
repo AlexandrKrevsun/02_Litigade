@@ -336,9 +336,10 @@ html {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 17px;   
+    display: flex;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-gap: 17px; 
+    justify-content: space-around;  
 }
 
 .card__top-container {
@@ -375,7 +376,7 @@ html {
     border-width: 1px;
     margin-left: 6px;   
     background: white;
-    width: 328px;
+    /*width: 328px;*/
 }
 
 .card__info-overlap {
@@ -486,7 +487,7 @@ html {
 }
 
 .card__info-wrapper {
-    padding: 30px 35px;
+    padding: 32px 43px 31px 33px;
 }
 
 .clients__stars {
@@ -529,16 +530,15 @@ color: #252B42;
 
 /*-----------------Attorneys 5pg styles  END---------------*/
 .attorneys__tabl {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
     grid-gap: 31px;
     padding: 0 7px;
     margin-bottom: 99px;  
 }
 
 .attorneys__card-wrapper {
-    height: 373px;
-    width: 328px;
+    /*height: 373px;
+    width: 328px;*/
     border-style: solid;
     border-width: 1px;
     border-color: #EEEEEE;
@@ -547,7 +547,7 @@ color: #252B42;
 }
 
 .attorneys__info-tabl {
-    padding: 30px 0px; 
+    padding: 32px 0px; 
 }   
 
 .attorneys__pic {
@@ -894,7 +894,9 @@ color: #252B42;
     padding: 56px 0 0px 10px;
 }
 
-
+.fooder__Right-text-styles-mobile {
+    display: none;
+    }
 /*-----------------Footer 7pg styles   END---------------*/
 
 /*-----------------Media START---------------*/
@@ -1083,10 +1085,10 @@ color: #252B42;
        }
 
        .cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 17px;
-        }
+        display: flex;
+        grid-gap: 22px;
+        justify-content: space-around;
+       }
 
         .card {
         margin-bottom: 14px;
@@ -1162,6 +1164,11 @@ color: #252B42;
         .card-mobile {
             margin-bottom: 9px;
         }
+
+        .card__info {
+            width: 328px;
+        }
+
      /*---clients style 4pg-------------media--end-----*/
      /*---Attorneys style 5pg-------------media--start----*/
         .attorneys__tabl {
@@ -1260,12 +1267,30 @@ color: #252B42;
     }
 
     .footer__email {
-        width: 340px;
+    width: 340px;
     }
-
+    
     .fooder__Right-text-styles {
-        text-align: center;
+    text-align: center;
     }
+    
+    .fooder__Right-text-styles {
+    color: white;
+    padding-top: 25px;
+    padding-left: 5px;
+    }
+    
+    .fooder__Right-text-styles {
+    display: none;
+    }
+    
+    .fooder__Right-text-styles-mobile {
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+    color: white;
+    }
+    
    /*-----footer style 7pg-------------media--end-----*/
 }
 /*-----------------Media END---------------*/
