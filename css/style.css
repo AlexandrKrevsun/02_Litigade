@@ -142,7 +142,7 @@ html {
     line-height: 65px;
     color: #252B42;
     
-    margin: 314px 0 36px 5px;
+    margin: 311px 0 35px 6px;
     letter-spacing: 0.2px;
 }
 
@@ -216,7 +216,7 @@ html {
     width: 330px;
     background: white;
     border-radius: 10px;
-    margin: 160px 7px 50px 7px;
+    margin: 154px 7px 50px 7px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -265,7 +265,7 @@ html {
     text-align: center;
     letter-spacing: 0.1px;
     color: #252B42;
-    margin: 40px 16px 40px 20px;
+    margin: 40px 0;       
 }
 
 .registr__sub-title {
@@ -291,9 +291,9 @@ html {
     border: 0;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    Width: 249px;
+    Width: 248px;
     Height: 57px;
-    margin-top: 25px;
+    margin-top: 27px;
     background: #295C7A;
     border-radius: 5px;
 }
@@ -454,7 +454,8 @@ html {
 .video {
    height: 442px;
    width: 877px;
-   margin: 50px 0;
+   margin: 0 auto;
+   width: 51%;
   }
   
   .video_element { 
@@ -466,9 +467,9 @@ html {
 
   .videos {
     position: absolute;
-    display: flex;
-    justify-content: center;
     width: 100%;
+    margin-top: 49px;
+}
    
   }
 
@@ -897,10 +898,6 @@ color: #252B42;
 .fooder__Right-text-styles-mobile {
     display: none;
     }
-
-.rrrr{
-    margin-bottom: 100px ;
-}
 /*-----------------Footer 7pg styles   END---------------*/
 
 /*-----------------Media START---------------*/
@@ -1057,7 +1054,7 @@ color: #252B42;
        }
 
        .wrapper__registration {
-        margin: 160px 7px 49px 7px;
+        margin: 80px 24px 88px 27px;
        }
 
        /*---main style 1pg---------------media--end--*/
@@ -1110,9 +1107,13 @@ color: #252B42;
 
        /*---video style 3pg-------------media--start-----*/
        
-       
+       .videos {
+        margin-top: 0px;
+    }
+
        .video {
         margin: 58px 53px;
+        width: 75%;
        }
        
 
@@ -1294,7 +1295,19 @@ color: #252B42;
     padding-top: 25px;
     color: white;
     }
+
+    .fooder__Right {
+        height: 100px;
+    }
     
+    .ert {
+        height: 445px;
+        background: black;
+    }
+
+    
+    
+        
    /*-----footer style 7pg-------------media--end-----*/
 }
 /*-----------------Media END---------------*/

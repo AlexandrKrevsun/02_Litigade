@@ -339,7 +339,10 @@
 
                 <div class="videos" >
                     <div class="video" id="videos"> 
-                        <iframe class="video_element" width="560" height="315" src="https://www.youtube.com/embed/zHYHZgIR8o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--<iframe class="video_element" width="560" height="315" src="https://www.youtube.com/embed/zHYHZgIR8o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <video poster="./img/poster_video.jpg" id="player" playsinline controls class="ert">
+                            <source src="./videos/video_1.mp4" type="video/mp4"/>
+                        </video>
                     </div>
                        
                 </div>
@@ -772,7 +775,7 @@
             <div class="fooder__Right">
                 <div class="wrapper">
                     <h3 class="card__items-text-styles fooder__Right-text-styles">Made With Love By Figmaland All Right Reserved </h3>
-<h3 class="card__items-text-styles fooder__Right-text-styles-mobile">Made With Love By <br> Figmaland All Right Reserved </h3> 
+                    <h3 class="card__items-text-styles fooder__Right-text-styles-mobile">Made With Love By <br> Figmaland All Right Reserved </h3> 
                 </div> 
                 
             </div>
@@ -780,10 +783,9 @@
 
     <!--footer end 7pg---------------------------------->
     <script src="./js/main.js"></script>
-    <script src="./plyr-master/dist/"></script>
+    <script src="./plyr-master/dist/plyr.js"></script>
     <script>
         const player = new Plyr('#player');
     </script>
-
 </body>
 </html>
