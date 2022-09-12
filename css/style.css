@@ -6,6 +6,18 @@ html {
     box-sizing: inherit;
   }
 
+.font__style-01 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+
 .wrapper {   /*обёртка страницы, блок контентента, ограничитель ширины*/
     max-width: 1090px;
     margin: 0 auto;  /*отступ для центрирования. 0 сверху, авто слева/справа*/
@@ -50,12 +62,6 @@ html {
 }
 
 .header__link {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    color: #737373;
     text-decoration: none;
 }
 
@@ -229,11 +235,6 @@ html {
 
 .registr__user-name, .registr__user-email, .registr__time, .registr__dep {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: 0.2px;
     color: #737373;
     background: #F9F9F9;
 
@@ -258,23 +259,15 @@ html {
 
 .registr__title {
     font-family: 'Martel';
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    letter-spacing: 0.1px;
     color: #252B42;
     margin: 40px 0;       
 }
 
-.registr__sub-title {
-    font-family: 'Open Sans';
-    font-style: normal;
+.registr__sub-title { 
     font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     color: #252B42;  
 }
 
@@ -321,14 +314,9 @@ html {
 }
 
 .advice__sub-title {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #737373;
+    text-align: center;  
 }
 
 .advice__sub-title-mobile {
@@ -388,15 +376,6 @@ html {
     padding: 28px 50px 0 50px;
 }
 
-.card__items-text-styles {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #737373;    
-}
 
 .card__items-features {
     margin-bottom: 4px;
@@ -407,12 +386,6 @@ html {
 }
 
 .link-url {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     color: #D0A144;
     text-decoration: none;
 }
@@ -566,10 +539,7 @@ color: #252B42;
 }
 
 .attorneys-status {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -596,27 +566,16 @@ color: #252B42;
 }
 
 .appointment__sub-title {
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
     letter-spacing: 0.1px;
-    color: #252B42;
-
-    padding-top: 90px;
+    padding: 90px 0 0 0;
 }
 
 .appointment__title {
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
     text-align: left;
-    letter-spacing: 0.2px;
-    color: #252B42;
+    padding: 0 0;
 }
 
 .appointment__form-tabl{
@@ -673,13 +632,8 @@ color: #252B42;
 }
 
 .appointment__submit {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 28px;
     font-weight: 700;
     border: 0;
-    letter-spacing: 0.2px;
     color: #FFFFFF;
     Width: 220px;
     Height: 57px;
@@ -712,13 +666,8 @@ color: #252B42;
 }
 
 .consultation__submit {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 28px;
     font-weight: 700;
     border: 0;
-    letter-spacing: 0.2px;
     color: #FFFFFF;
     Width: 158px;
     Height: 58px;
@@ -1193,11 +1142,11 @@ color: #252B42;
 
     /*---Appointment style 6pg-------------media--start-----*/
     .appointment__sub-title {    
-        padding: 116px 0px 0 2px;
+        padding: 118px 0px 0 2px;
     }
 
     .appointment__title {
-        padding-left: 2px;
+        padding: 0 0 0 2px;;
     }
 
     .appointment__form-tabl {
