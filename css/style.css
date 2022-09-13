@@ -461,7 +461,7 @@ html {
 }
 
 .card__info-wrapper {
-    padding: 32px 43px 31px 33px;
+    padding: 31px 69px 31px 35px;
 }
 
 .clients__stars {
@@ -873,11 +873,11 @@ color: #252B42;
         height: 100%;
         top: 0;
         left: 0;
-        background: #A9D6FF;
+        background: #F6F6F6;
         z-index: 10;
         padding-top: 135px;
         justify-content: center;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         transition: 0.2s all linear;
     }
 
@@ -1009,7 +1009,7 @@ color: #252B42;
        /*---main style 1pg---------------media--end--*/
        /*---advice style 2pg-------------media--start--*/
        .title__wrap {
-        width: 300px;
+        width: 240px;
         margin-bottom: 73px;
         text-align: center;
        }
@@ -1098,7 +1098,7 @@ color: #252B42;
         
 
         .title__wrap-clients {
-            width: auto;           
+            width: 100%;           
             margin: 75px 0 59px 0;
            
 
@@ -1254,10 +1254,70 @@ color: #252B42;
         background: black;
     }
 
+    .appointment__user-name, .appointment__submit, .appointment__user-email, .appointment__time, .appointment__dep, .appointment__user-message {
+width: 100%;
+    }
     
-    
+    .form-appointment-block {
+        min-width: 187px;
+    }
+
+    .link__author {
+        margin-top: 4px;
+    }
+
+ 
         
    /*-----footer style 7pg-------------media--end-----*/
+}
+
+@media screen and (max-width: 420px) {
+
+    .footer__email-field {
+        width: 50%;
+    }
+
+    .footer__email-button {
+        width: 50%;
+    }
+
+    .footer__email {
+        width: 100%;
+    }
+
+    .mobile__style {
+        font-size: 1.89em;
+    }
+
+    .card__info {
+        width: 98%;
+    }
+
+    .wrapper__clients {
+        height: 100%;
+    }
+
+    .title__wrap {
+        width: 100%;
+        
+    }
+
+    .video {
+        margin: 58px 28px;
+        width: auto;
+    }
+
+    .header__search {
+        right: 85px;   
+    }
+
+    .header__basket {
+        right: 50px; 
+    }
+    
+    .header__nav-close {
+        right: 10px; 
+    }
 }
 /*-----------------Media END---------------*/
 
