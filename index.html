@@ -3,59 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-
-    <link rel="stylesheet" href="./css/reset.css">       <!--01_сброс дефолтных браузерных настроек блоков-->
+    <link rel="stylesheet" href="./css/reset.css">   
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/font-face.css">
     <link rel="stylesheet" href="./plyr-master/dist/plyr.css">
-
     <title>Help to reclaim your life and freedom</title>
 </head>
-
 <body>
     <!--header start---------------------------------------->
     <div class="header">
-        <div class="wrapper">
-            
-            <div class="header__wrapper"> <!--1* cont. for header-->
-                
+        <div class="wrapper">     
+            <div class="header__wrapper tabl-flex"> <!--1* cont. for header-->      
                 <div class="header__logo">
                     <a href="#!" class="header__logo-link">
                         <img src="./img/svg/Litigade-Logo-header.svg" alt="Litigade" class="header__logo-img">
                     </a>
                 </div>
-                    <!--navigation menu START-->
-                <nav class="header__nav"> 
-                    <div class="header__logo">
-                        <a href="#!" class="header__logo-link">
-                            <img src="./img/svg/Litigade-Logo-header.svg" alt="Litigade" class="header__logo-img img-burger">
-                        </a>
+                <nav class="tabl-flex"> 
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="tabl-flex menu__box">                      
+                            <li class="header__item">
+                                <a href="#!" class="header__link font__style-01 menu__item">Home</a>
+                            </li>      
+                            <li class="header__item">
+                                <a href="#!" class="header__link font__style-01 menu__item">Product</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link font__style-01 menu__item">Pricing</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link font__style-01 menu__item">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="header__list">
-                        
-                        <li class="header__item">
-                            <a href="#!" class="header__link font__style-01">Home</a>
-                        </li>
-    
-                        <li class="header__item">
-                            <a href="#!" class="header__link font__style-01">Product</a>
-                        </li>
-    
-                        <li class="header__item">
-                            <a href="#!" class="header__link font__style-01">Pricing</a>
-                        </li>
-    
-                        <li class="header__item">
-                            <a href="#!" class="header__link font__style-01">Contact</a>
-                        </li>
-
-                    </ul>
-                    <div class="header__nav-close">
-                        <span class="header__nav-close-line"></span>
-                        <span class="header__nav-close-line"></span>
-                    </div>
-                
+                    
                     <div class="header__search">
                         <a href="#!" class="header__search-link">
                             <img src="./img/svg/search-pic.svg" alt="search" class="header__search-img">
@@ -68,67 +53,49 @@
                         </a>   
                     </div>
                 </nav>    
-                    <!--navigation menu END-->
-                    <div class="header__burger burger">
-                        <span class="burger__line burger__line_1"></span>
-                        <span class="burger__line burger__line_2"></span>
-                        <span class="burger__line burger__line_3"></span>
-                    </div>
-
-            </div>                           <!--1* end-->
+            </div>                          
         </div>
     </div>
     <!--header end------------------------------------------>
-    
-    <main class="main">
-        
+    <main class="main">  
         <!--intro start 1pg---------------------------------------->
         <section class="intro">
             <div class="wrapper">
-                <div class="intro__tabl">
-                    <div class="section1">
-                        <h1 class="intro__title">
+                <div class="intro__tabl tabl-flex">
+                    <div class="wrapper__title">
+                        <h1 class="intro__title font__style-02">
                             Help to reclaim your life and freedom
                         </h1>
-
-                        <h1 class="intro__title-mobile ">
-                            Help to reclaim <br> your life <br> and freedom
+                        <h1 class="intro__title-mobile font__style-02">
+                            Help to reclaim <br class="br"> your life <br class="br"> and freedom
                         </h1>
-
-
-                        <h2 class="intro__sub-title">
+                        <h2 class="intro__sub-title font__style-03">
                             We know how large objects will act, but things on a small scale.
-                        </h2>
-                        
+                        </h2>   
                         <div class="button__intro">
                             <button class="button__intro-left">
-                                <a href="#!" class="button__intro-text">Get Quote Now</a>       
+                                <a href="#!" class="button__intro-text font__style-01">Get Quote Now</a>       
                             </button>
-
                             <button class="button__intro-right">
-                                <a href="#!" class="button__intro-text color784F33">Learn More</a>
+                                <a href="#!" class="button__intro-text font__style-01 color784F33">Learn More</a>
                             </button>
                         </div>
                     </div>
-
                    <div class="wrapper__registration">
                         <form action='#!' class="form-registr">
-                            <h3 class="registr__title font__style-01">Book Appointment</h3>
+                            <h3 class="registr__title font__style-02">Book Appointment</h3>
                                 <fieldset class="form-registr__wrap"> 
                                     <div class="table">      
                                         <label class="registr__sub-title font__style-01">Name*</label>
-                                        <input type="text" name = "user-name" class="registr__user-name font__style-01" autocomplete ="off" placeholder="Full Name">
-                                        
+                                        <input type="text" name = "user-name" class="registr__user-name font__style-01" autocomplete ="off" placeholder="Full Name">                      
                                         <label class="registr__sub-title  font__style-01">Email*</label>
-                                        <input type="email" name = "user-email" class="registr__user-email font__style-01" autocomplete ="off" placeholder="example@gmail.com">
-                                    
+                                        <input type="email" name = "user-email" class="registr__user-email font__style-01" autocomplete ="off" placeholder="example@gmail.com">                         
                                         <label class="registr__sub-title  font__style-01">Department *</label>
                                         <select class="registr__dep font__style-01" name = "user-Department">
                                             <option class="registr__dep-choice " value="" disabled selected style='display:none;'>&nbspPlease Select</option>
                                             <option  class="registr__dep-choice ">Пункт 1</option>
                                             <option  class="registr__dep-choice">Пункт 2</option> 
                                         </select>
-
                                         <label class="registr__sub-title  font__style-01">Time *</label>
                                         <select class="registr__time font__style-01" name="user-time">
                                             <option class="registr__dep-choice">4:00 Available</option>
@@ -136,7 +103,7 @@
                                             <option class="registr__dep-choice">6:00 Available</option> 
                                             <option class="registr__dep-choice">7:00 Available</option> 
                                         </select>
-                                        <button type="submit" class="registr__submit">Book Appointment</button>
+                                        <button type="submit" class="registr__submit font__style-01">Book Appointment</button>
                                     </div>
                             </fieldset>
                         </form>
@@ -145,208 +112,169 @@
                 </div>
             </div>
         </section>
-        <!--intro end 1pg---------------------------------------->
-        
+        <!--intro end 1pg---------------------------------------->    
         <!--Advice start 2pg--------------------------------------->
         <section class="Advice">
             <div class="wrapper wrapper__card-mobile">
                 <div class="title__wrap">
-                    <h2 class="advice__title">
+                    <h2 class="advice__title font__style-02">
                         Practice Advice
                     </h2>
-
                     <h3 class="font__style-01 advice__sub-title">
-                        Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics 
+                        Problems trying to resolve the conflict between <br class="br"> the two major realms of Classical physics: Newtonian mechanics 
                     </h3>
-
                     <h3 class="font__style-01 advice__sub-title-mobile">
-                        Problems trying to resolve <br> the conflict between the <br> two major realms of Classical <br> physics: Newtonian mechanics
+                        Problems trying to resolve <br class="br"> the conflict between the <br class="br"> two major realms of Classical <br class="br"> physics: Newtonian mechanics
                     </h3>
                 </div>
-
                 <div class="cards">
+                    <!--card_1-->
                     <div class="card">
                         <div class="card__top">
-                            <div class="card__top-container">
+                            <div class="card__top-container tabl-flex">
                                 <div class="card__top-pic">
                                     <img src="./img/svg/card-1-pic.svg" alt="scales" class="card__top-pic-thumb">
                                 </div>
 
-                                <h2 class="card__top-title">
+                                <h2 class="card__top-title font__style-02">
                                     Frauds or Mislead
                                 </h2>
                             </div>
                         </div>
-
                         <div class="card__info card__info-overlap">
-                            <ul class="card__info-list">
+                            <ul class="card__info-list card__info-list-mobile">
                                 <li class="font__style-01 card__items-features">
                                     - The best products start 
                                 </li>
-
                                 <li class="font__style-01 card__items-features">
                                     with Figma
                                 </li>
-
                                 <li class="font__style-01 card__items-features">
                                     - Design with real data
                                 </li>
-
                                 <li class="font__style-01 card__items-features">
                                     - Lightning fast prototyping
                                 </li>
-
                                 <li class="font__style-01 card__items-features">
                                     - Fastest way to organize
                                 </li>
-
                                 <li class="font__style-01 card__items-features">
                                     - Work at the speed of thought.
                                 </li>
                             </ul>
-
                             <div class="link">
                                 <a href="#!" class="link-url font__style-01">
                                     Learn More
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <!--card_2-->
                     <div class="card">
                         <div class="card__top">
-                            <div class="card__top-container">
+                            <div class="card__top-container tabl-flex">
                                 <div class="card__top-pic">
                                     <img src="./img/svg/card-2-pic.svg" alt="scales" class="card__top-pic-thumb">
                                 </div>
-
-                                <h2 class="card__top-title">
+                                <h2 class="card__top-title font__style-02">
                                     Bailes & Warrants
                                 </h2>
                             </div>
                         </div>
-
                         <div class="card__info card__info-overlap">
                             <ul class="card__info-list">
                                 <li class="font__style-01  card__items-features">
                                     - The best products start 
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     with Figma
                                 </li>
-
                                <li class="font__style-01  card__items-features">
                                     - Design with real data
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Lightning fast prototyping
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Fastest way to organize
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Work at the speed of thought.
                                 </li>
                             </ul>
-
                             <div class="link">
                                 <a href="#!" class="link-url font__style-01">
                                     Learn More
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <!--card_3-->
                     <div class="card">
                         <div class="card__top">
-                            <div class="card__top-container">
+                            <div class="card__top-container tabl-flex">
                                 <div class="card__top-pic">
                                     <img src="./img/svg/card-3-pic.svg" alt="scales" class="card__top-pic-thumb">
                                 </div>
-
-                                <h2 class="card__top-title">
+                                <h2 class="card__top-title font__style-02">
                                     Federal Drug Crimes
                                 </h2>
                             </div>
                         </div>
-
                         <div class="card__info card__info-overlap">
                             <ul class="card__info-list">
                                 <li class="font__style-01  card__items-features">
                                     - The best products start 
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     with Figma
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Design with real data
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Lightning fast prototyping
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Fastest way to organize
                                 </li>
-
                                 <li class="font__style-01  card__items-features">
                                     - Work at the speed of thought.
                                 </li>
                             </ul>
-
                             <div class="link">
                                 <a href="#!" class="link-url font__style-01">
                                     Learn More
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <!--end card 3-->
                 </div>
             </div>
-
         </section>
         <!--Advice end 2pg--------------------------------------->
-
         <!--Video start 3pg------------------------------------->
         <section class="video_pg">
             <div class="video__wrap-first">
-                <h2 class="advice__title">
+                <h2 class="advice__title font__style-02">
                     Who We Are
                 </h2>
-
                 <h3 class="font__style-01 advice__sub-title">
-                    Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics
+                    Problems trying to resolve the conflict between <br  class="br"> the two major realms of Classical physics: Newtonian mechanics
                 </h3>
-
                 <h3 class="font__style-01 advice__sub-title-mobile ">
-                    Problems trying to resolve <br> the conflict between the <br> two major realms of Classical <br> physics: Newtonian mechanics
+                    Problems trying to resolve <br  class="br"> the conflict between the <br  class="br"> two major realms of Classical <br class="br"> physics: Newtonian mechanics
                 </h3>
-
                 <div class="video__wrap-second">
-
                 </div>
-
                 <div class="videos" >
                     <div class="video" id="videos"> 
-                        <!--<iframe class="video_element" width="560" height="315" src="https://www.youtube.com/embed/zHYHZgIR8o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                         <video poster="./img/poster_video.jpg" id="player" playsinline controls class="ert">
                             <source src="./videos/video_1.mp4" type="video/mp4"/>
                         </video>
-                    </div>
-                       
-                </div>
-                
+                    </div>                      
+                </div>               
             </div>         
         </section>
         <!--Video end 3pg------------------------------------->
@@ -355,24 +283,20 @@
             <div class="wrapper__clients">
                 <div class="wrapper wrapper__card-mobile">
                     <div class="title__wrap-clients">
-                        <h2 class="advice__title full-title">
+                        <h2 class="advice__title font__style-02 full-title">
                             What Clients Say
+                        </h2>              
+                        <h2 class="advice__title-mobile font__style-02">
+                            What <br class="br"> Clients Say
                         </h2>
-                        
-                        <h2 class="advice__title-mobile">
-                            What <br> Clients Say
-                        </h2>
-
                         <h3 class="font__style-01 advice__sub-title">
-                            Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics
-                        </h3>
-        
+                            Problems trying to resolve the conflict between <br class="br"> the two major realms of Classical physics: Newtonian mechanics
+                        </h3>    
                         <h3 class="font__style-01 advice__sub-title-mobile">
-                            Problems trying to resolve <br> the conflict between the two major <br> realms of Classical physics: <br> Newtonian mechanics  
+                            Problems trying to resolve <br class="br"> the conflict between the two major <br class="br"> realms of Classical physics: <br class="br"> Newtonian mechanics  
                         </h3>
-                    </div>
-                    
-                    <div class="cards ">
+                    </div>                
+                    <div class="cards advice__cards">
                         <div class="card card-mobile">
                             <div class="card__info card__info-clients">
                                 <div class="card__info-wrapper">
@@ -384,30 +308,25 @@
                                             <img src="./img/svg/star-yellow.svg" alt="star-yellow" class="star">
                                             <img src="./img/svg/star-white.svg" alt="star-white" class="star">
                                         </div>
-                                    </div>
-                                    
+                                    </div>                                  
                                     <h3 class="clients__feedback font__style-01 ">
                                     Slate helps you see how many more days you need to work to reach your financial goal.
                                     </h3>
-
                                     <div class="clients__author">
                                         <div class="clients__autor-wrapper">
-                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">
-                                            
+                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">                                
                                             <div class="link__author">
                                                 <a href="#!" class="link-url">
                                                     Regina Miles
                                                 </a>
                                             </div>
-
-                                            <h2 class="clients__author-work">
+                                            <h2 class="clients__author-work font__style-01">
                                                 Designer
                                             </h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <!--card_2-->
                         <div class="card card-mobile">
@@ -421,30 +340,25 @@
                                             <img src="./img/svg/star-yellow.svg" alt="star-yellow" class="star">
                                             <img src="./img/svg/star-white.svg" alt="star-white" class="star">
                                         </div>
-                                    </div>
-                                    
+                                    </div>                         
                                     <h3 class="clients__feedback font__style-01 ">
                                     Slate helps you see how many more days you need to work to reach your financial goal.
                                     </h3>
-
                                     <div class="clients__author">
                                         <div class="clients__autor-wrapper">
-                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">
-                                            
+                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">                                 
                                             <div class="link__author">
                                                 <a href="#!" class="link-url">
                                                     Regina Miles
                                                 </a>
                                             </div>
-
-                                            <h2 class="clients__author-work">
+                                            <h2 class="clients__author-work font__style-01">
                                                 Designer
                                             </h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <!--card_3-->
                         <div class="card card-mobile">
@@ -458,71 +372,58 @@
                                             <img src="./img/svg/star-yellow.svg" alt="star-yellow" class="star">
                                             <img src="./img/svg/star-white.svg" alt="star-white" class="star">
                                         </div>
-                                    </div>
-                                    
+                                    </div>                                  
                                     <h3 class="clients__feedback font__style-01 ">
                                     Slate helps you see how many more days you need to work to reach your financial goal.
                                     </h3>
-
                                     <div class="clients__author">
                                         <div class="clients__autor-wrapper">
-                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">
-                                            
+                                            <img src="./img/svg/img-client.svg" alt="pic-author" class="clients__author-pic">                                      
                                             <div class="link__author">
                                                 <a href="#!" class="link-url">
                                                     Regina Miles
                                                 </a>
                                             </div>
-
-                                            <h2 class="clients__author-work">
+                                            <h2 class="clients__author-work font__style-01">
                                                 Designer
                                             </h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                    
+                        </div>                    
                         <!--end card 3-->
-                    </div>
-                    
+                    </div>                 
                 </div>
             </div>
-
         </section>
-        <!--Clients Say end 4pg----------------------------->
+        <!--Clients Say end 4pg----------------------------->    
         <!--Attorneys start 5pg----------------------------->
         <section class="attorneys">
             <div class="wrapper">
                 <div class="title__wrap attorneys-title">
-                    <h2 class="advice__title">
+                    <h2 class="advice__title font__style-02">
                         Meet Our Attorneys
                     </h2>
-
                     <h3 class="font__style-01 advice__sub-title">
-                        Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics 
+                        Problems trying to resolve the conflict between <br class="br"> the two major realms of Classical physics: Newtonian mechanics 
                     </h3>
-
                     <h3 class="font__style-01 advice__sub-title-mobile">
-                        Problems trying to resolve <br> the conflict between the two major <br> realms of Classical physics: <br> Newtonian mechanics 
+                        Problems trying to resolve <br  class="br"> the conflict between the two major <br class="br"> realms of Classical physics: <br class="br"> Newtonian mechanics 
                     </h3>
-                </div>
-                
+                </div>              
                 <div class="attorneys__tabl">
                     <div class="attorneys__card">
                         <div class="attorneys__card-wrapper">
                             <img src="./img/attorneys_1.jpg" alt="attorneys_1" class="attorneys__pic">
                             <div class="attorneys__info-tabl">
-                                <h2 class="attorneys-name">
+                                <h2 class="attorneys-name font__style-02">
                                     Ashley Fletcher
-                                </h2>
-        
+                                </h2>      
                                 <h2 class="attorneys-status font__style-01">
                                     LAYER & CEO
-                                </h2>
-        
-                                <div class="soc-network__tabl">
+                                </h2>       
+                                <div class="soc-network__tabl tabl-flex">
                                     <a href="#!"><img src="./img/svg/soc_1.svg" alt="facebook img" class="attorneys-facebook"></a>
                                     <a href="#!"><img src="./img/svg/soc_2.svg" alt="instagram img" class="attorneus-instagram"></a>
                                     <a href="#!"><img src="./img/svg/soc_3.svg" alt="twitter img" class="attorneus-twitter"></a>
@@ -530,20 +431,17 @@
                             </div>  
                         </div>                      
                     </div>
-
                     <div class="attorneys__card">
                         <div class="attorneys__card-wrapper">
                             <img src="./img/attorneys_2.jpg" alt="attorneys_1" class="attorneys__pic">
                             <div class="attorneys__info-tabl">
-                                <h2 class="attorneys-name">
+                                <h2 class="attorneys-name font__style-02">
                                     Rodney Stratton
-                                </h2>
-        
+                                </h2>    
                                 <h2 class="attorneys-status font__style-01">
                                     CEO
-                                </h2>
-        
-                                <div class="soc-network__tabl">
+                                </h2>      
+                                <div class="soc-network__tabl tabl-flex">
                                     <a href="#!"><img src="./img/svg/soc_1.svg" alt="facebook img" class="attorneys-facebook"></a>
                                     <a href="#!"><img src="./img/svg/soc_2.svg" alt="instagram img" class="attorneus-instagram"></a>
                                     <a href="#!"><img src="./img/svg/soc_3.svg" alt="twitter img" class="attorneus-twitter"></a>
@@ -551,20 +449,17 @@
                             </div>  
                         </div>                      
                     </div>
-
                     <div class="attorneys__card">
                         <div class="attorneys__card-wrapper">
                             <img src="./img/attorneys_3.jpg" alt="attorneys_1" class="attorneys__pic">
                             <div class="attorneys__info-tabl">
-                                <h2 class="attorneys-name">
+                                <h2 class="attorneys-name font__style-02">
                                     Avie Beaton
-                                </h2>
-        
+                                </h2>        
                                 <h2 class="attorneys-status font__style-01">
                                     LAYER CIVIL LAW
-                                </h2>
-        
-                                <div class="soc-network__tabl">
+                                </h2>        
+                                <div class="soc-network__tabl tabl-flex">
                                     <a href="#!"><img src="./img/svg/soc_1.svg" alt="facebook img" class="attorneys-facebook"></a>
                                     <a href="#!"><img src="./img/svg/soc_2.svg" alt="instagram img" class="attorneus-instagram"></a>
                                     <a href="#!"><img src="./img/svg/soc_3.svg" alt="twitter img" class="attorneus-twitter"></a>
@@ -573,68 +468,56 @@
                         </div>                      
                     </div>
                 </div>
-
-                
-
             </div>
         </section>
         <!--Attorneys end 5pg------------------------------->
-
         <!--Appointment start 6pg------------------------------->
         <section class="appointment">
             <div class="appointment__wrapper">
                 <div class="wrapper wrapper__appointment-mobile">
-                    <h3 class="appointment__sub-title advice__title">
+                    <h3 class="appointment__sub-title advice__title font__style-02">
                         Contact Us
                     </h3>
-                    <h2 class="appointment__title advice__title mobile__style">
+                    <h2 class="appointment__title advice__title font__style-02 mobile__style">
                         Make an Appointment
                     </h2>
-
                     <form action='#!' class="form-appointment">
                         <fieldset class="form-appointment-block"> 
                             <div class="appointment__form-tabl">  
-                                <input type="text" name = "user-name" class="appointment__user-name" autocomplete ="off" placeholder="Full Name">                              
-                                <input type="email" name = "user-email" class="appointment__user-email" autocomplete ="off" placeholder="example@gmail.com">
-                        
-                                <select class="appointment__dep" name = "user-Department">
+                                <input type="text" name = "user-name" class="appointment__user-name font__style-03" autocomplete ="off" placeholder="Full Name">                              
+                                <input type="email" name = "user-email" class="appointment__user-email font__style-03" autocomplete ="off" placeholder="example@gmail.com">        
+                                <select class="appointment__dep font__style-03" name = "user-Department">
                                     <option class="appointment__dep-choice" value="" disabled selected style='display:none;'>&nbspPlease Select</option>
                                     <option  class="appointment__dep-choice">Пункт 1</option>
                                     <option  class="appointment__dep-choice">Пункт 2</option> 
-                                </select>
-         
-                                <select class="appointment__time" name="user-time">
+                                </select>        
+                                <select class="appointment__time font__style-03" name="user-time">
                                     <option class="appointment__dep-choice">4:00 Available</option>
                                     <option class="appointment__dep-choice">5:00 Available</option> 
                                     <option class="appointment__dep-choice">6:00 Available</option> 
                                     <option class="appointment__dep-choice">7:00 Available</option> 
-                                </select>
-                                   
-                                <textarea class="appointment__user-message">Message</textarea>
+                                </select>                                 
+                                <textarea class="appointment__user-message font__style-03">Message</textarea>
                             </div>
-                            <div class="rrrr">
+                            <div class="appointment__submit-wrap">
                             <button type="submit" class="appointment__submit font__style-01">Book Appointment</button>
                             </div>
                         </fieldset>
                     </form>
                 </div>
-                
-
-            </div>
-            
+            </div>            
             <div class="consultation">
                 <div class="wrapper">
-                    <div class="cosultation__tabl">
+                    <div class="cosultation__tabl tabl-flex">
                         <div class="consultation__wrap consultation__wrap-mobile">
-                            <h2 class="registr__title consultation__title">
+                            <h2 class="registr__title consultation__title font__style-02">
                                 Request A Free Consultation
                             </h2>
                             <h3 class="font__style-01 advice__sub-title consultation__sub-title">
                                 the quick fox jumps over the lazy dog
                             </h3>
-
                             <h3 class="font__style-01 advice__sub-title-mobile consultation__sub-title">
-                                the quick fox jumps over <br> the lazy dog
+                                the quick fox jumps over <br  class="br"> the lazy dog
                             </h3>
                         </div>
                         <button type="submit" class="consultation__submit font__style-01">Contact Us</button>
@@ -642,146 +525,126 @@
                 </div>
             </div>
         </section>
-
         <!--Appointment end 6pg------------------------------->
     </main>
-
     <!--footer start 7pg---------------------------------->
     <footer class="footer">
         <div class="wrapper__footer">  
             <div class="wrapper">
-                <div class="footer__logo">
+                <div class="footer__logo tabl-flex">
                     <div class="footer__logo-img">
                         <a href="#!" class="footer__logo-img-link">
                             <img src="./img/svg/Litigade-Logo-footer.svg" alt="Litigade" class="footer__logo-img-ico">
                         </a>                       
                     </div>
-
-                    <div class="footer__soc-network-tabl">
+                    <div class="footer__soc-network-tabl tabl-flex">
                         <a href="#!"><img src="./img/svg/f-facebook.svg" alt="facebook img" class="footer__soc-network-img"></a>
                         <a href="#!"><img src="./img/svg/f-instogram.svg" alt="instagram img" class="footer__soc-network-img"></a>
                         <a href="#!"><img src="./img/svg/f-twitter.svg" alt="twitter img" class="footer__soc-network-img"></a>
                         <a href="#!"><img src="./img/svg/f-youtube.svg" alt="youtube img" class="footer__soc-network-right-img"></a>
-
                     </div>
                 </div>
-
                 <hr class="bottom__border">
-
                 <div class="footer__item">
-                    <nav class="footer__nav">
+                    <nav class="footer__nav tabl-flex">
                         <!--1-->
                         <ul class="footer_menu-01">
                             <li class="footer__menu-item-title">
-                                <h3 class="footer__menu-title">Company Info</h3>
+                                <h3 class="footer__menu-title font__style-02">Company Info</h3>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About Us</a>
+                                <a href="#!" class="footer__menu-link font__style-01">About Us</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Carrier</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Carrier</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">We are hiring</a>
+                                <a href="#!" class="footer__menu-link font__style-01">We are hiring</a>
                             </li>     
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Blog</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Blog</a>
                             </li>
                         </ul>
-
                         <!--2-->
                         <ul class="footer_menu-02">
                             <li class="footer__menu-item-title">
-                                <h3 class="footer__menu-title">Legal</h3>
+                                <h3 class="footer__menu-title font__style-02">Legal</h3>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About Us</a>
+                                <a href="#!" class="footer__menu-link font__style-01">About Us</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Carrier</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Carrier</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">We are hiring</a>
+                                <a href="#!" class="footer__menu-link font__style-01">We are hiring</a>
                             </li>     
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Blog</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Blog</a>
                             </li>
                         </ul>
-
                         <!--3-->
                         <ul class="footer_menu-03">
                             <li class="footer__menu-item-title">
-                                <h3 class="footer__menu-title">Features</h3>
+                                <h3 class="footer__menu-title font__style-02">Features</h3>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Business Marketing</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Business Marketing</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">User Analytic</a>
+                                <a href="#!" class="footer__menu-link font__style-01">User Analytic</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Live Chat</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Live Chat</a>
                             </li>     
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Unlimited Support</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Unlimited Support</a>
                             </li>
                         </ul>
-
                         <!--4-->
                         <ul class="footer_menu-04">
                             <li class="footer__menu-item-title">
-                                <h3 class="footer__menu-title">Resources</h3>
+                                <h3 class="footer__menu-title font__style-02">Resources</h3>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">IOS & Android</a>
+                                <a href="#!" class="footer__menu-link font__style-01">IOS & Android</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Watch a Demo</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Watch a Demo</a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Customers</a>
+                                <a href="#!" class="footer__menu-link font__style-01">Customers</a>
                             </li>     
                             <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">API</a>
+                                <a href="#!" class="footer__menu-link font__style-01">API</a>
                             </li>
-                        </ul>
-                        
+                        </ul>                       
                         <form action='#!' class="footer__email-block">
                         
                             <div class="footer__email">
-                                <h2 class="footer__menu-title">
+                                <h2 class="footer__menu-title font__style-02">
                                     Get In Touch
                                 </h2> 
-
-                                <div class="text__with__button">
-                                    
-                                    <input type="email" name="footer__email-field" class="footer__email-field" autocomplete="off" placeholder="Your Email">
-                                    <button type="submit" class="footer__email-button">Subscribe</button>
-                                    
-                                    
+                                <div class="text__with__button">                   
+                                    <input type="email" name="footer__email-field" class="footer__email-field  font__style-03" autocomplete="off" placeholder="Your Email">
+                                    <button type="submit" class="footer__email-button font__style-03">Subscribe</button>                  
                                 </div>
-                                <h3 class="footer__menu-sub-title">
+                                <h3 class="footer__menu-sub-title font__style-03">
                                     Lorem impsum dolor amit
                                 </h3>
-                            </div>
-                        
-                        </form>
-                    
-                    </nav>
-
-                    
+                            </div>                    
+                        </form>                  
+                    </nav>                 
                 </div>
             </div>
         </div>  
             <div class="fooder__Right">
                 <div class="wrapper">
                     <h3 class="font__style-01 fooder__Right-text-styles">Made With Love By Figmaland All Right Reserved </h3>
-                    <h3 class="font__style-01 fooder__Right-text-styles-mobile">Made With Love By <br> Figmaland All Right Reserved </h3> 
-                </div> 
-                
+                    <h3 class="font__style-01 fooder__Right-text-styles-mobile">Made With Love By <br  class="br"> Figmaland All Right Reserved </h3> 
+                </div>              
             </div>
     </footer>
-
     <!--footer end 7pg---------------------------------->
     <script src="./js/main.js"></script>
     <script src="./plyr-master/dist/plyr.js"></script>
